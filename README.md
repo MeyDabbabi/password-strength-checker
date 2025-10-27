@@ -14,7 +14,6 @@ This tool provides two main features:
 - ✅ Analyzes password length and complexity
 - ✅ Checks against common password databases
 - ✅ Evaluates character variety (uppercase, lowercase, numbers, symbols)
-- ✅ Provides color-coded strength ratings (🔴 Weak, 🟡 Medium, 🟢 Strong)
 - ✅ Estimates time to crack using brute-force attacks
 
 ### Password Generator
@@ -56,7 +55,7 @@ Follow the interactive menu:
 ```
 Enter your password: password123
 
-Password Strength: 🔴 Weak (common password)
+Password Strength:  Weak (common password)
 Estimated time to crack: ⚠️ 0.52 seconds
 ```
 
@@ -64,7 +63,7 @@ Estimated time to crack: ⚠️ 0.52 seconds
 ```
 Enter your password: MyS3cur3P@ssw0rd!
 
-Password Strength: 🟢 Strong
+Password Strength:  Strong
 Estimated time to crack: 🔒 2.3e+15 years
 ```
 
@@ -73,7 +72,7 @@ Estimated time to crack: 🔒 2.3e+15 years
 Enter desired password length (default 12): 16
 
 ✅ Generated password: K9#mL@pQ2xR$nF7v
-Password Strength: 🟢 Strong
+Password Strength: Strong
 Estimated time to crack: 🔒 8.7e+18 years
 ```
 
